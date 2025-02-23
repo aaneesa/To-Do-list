@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #D2B48C, #8B4513);
-  color: #ffffff;
+  background: linear-gradient(to right, #F5F5DC, #A52A2A);
+  color: #333;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  color: #ffffff;
+  color: #A52A2A;
 }
 
 .input-section {
@@ -35,17 +35,17 @@ input[type="text"], input[type="time"] {
 
 button {
   padding: 12px 24px;
-  background-color: #c59c62;
-  color: rgb(9, 6, 6);
-  border: 2px solid #0f0b28;
+  background-color: #A52A2A;
+  color: white;
+  border: 2px solid #8B4513;
   border-radius: 25px;
   cursor: pointer;
   font-size: 16px;
 }
 
 button:hover {
-  background-color: #6A5ACD;
-  border-color: #4B0082;
+  background-color: #8B4513;
+  border-color: #A52A2A;
 }
 
 ul {
@@ -54,7 +54,7 @@ ul {
 }
 
 li {
-  background-color: #8B4513;
+  background-color: #A52A2A;
   color: white;
   margin: 12px 0;
   padding: 15px;
@@ -65,12 +65,12 @@ li {
 }
 
 li.completed {
-  background-color: #D2B48C;
+  background-color: #F5F5DC;
   color: #333;
 }
 
 li button {
-  background-color: #B22222;
+  background-color: #8B4513;
   padding: 6px 12px;
   border: none;
   cursor: pointer;
@@ -79,5 +79,5 @@ li button {
 }
 
 li button:hover {
-  background-color: #8B0000;
+  background-color: #A52A2A;
 }
